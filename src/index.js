@@ -11,7 +11,7 @@ import auditionsReducer from './reducers/auditionsReducer.js'
 const store = createStore(auditionsReducer, applyMiddleware(thunk))
 
 ReactDOM.render(
-  <Provider>
+  <Provider store={store}>
     <App store={store}/>
   </Provider>,
   document.getElementById('root')

@@ -5,7 +5,7 @@ import SignOutButtons from './SignOutButtons'
 class NavBar extends React.Component {
     render() {
         return (
-            <div class="sidenav">
+            <div className="sidenav">
                 <h1>The Unofficial List</h1>
                 <SignInButtons />
                 <SignOutButtons />
